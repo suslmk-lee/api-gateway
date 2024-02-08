@@ -1,14 +1,14 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.2.2'
+	id 'org.springframework.boot' version '2.5.15'
 	id 'io.spring.dependency-management' version '1.1.4'
 }
 
 group = 'com.k-paas'
-version = '0.0.1-SNAPSHOT'
+version = '1.0'
 
 java {
-	sourceCompatibility = '17'
+	sourceCompatibility = '1.8'
 }
 
 repositories {
@@ -16,7 +16,7 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "2023.0.0")
+	set('springCloudVersion', "2021.0.8")
 }
 
 dependencies {
